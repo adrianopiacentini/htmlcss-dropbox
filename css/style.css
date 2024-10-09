@@ -67,16 +67,16 @@ header {
  /* /hero */
 
 /* card-section  */
-.plan {
+.container {
     width:60%;
     max-width:1100px;
-    margin:50px auto;
+    margin:100px auto;
     /* debug */
     min-height:500px;
     border:1px dashed black;
 }
 
-.vertical-cards {
+.plans .container .vertical-cards {
     display:flex;
     justify-content:space-between;
     gap:50px;
@@ -86,23 +86,23 @@ header {
 
 }
 
-.plan .text-section {
+.plans .container .text-section {
     align-self:flex-start;
     /* debug */
     min-height:100px;
 }
 
-.vertical-cards .col {
+.plans .container .vertical-cards .col {
     width:calc(95% / 3);
     /* debug */
     border: 1px dashed red;
 }
 
-.horizontal-cards {
+.plans .container .horizontal-cards {
     margin-top:50px;
 }
 
-.horizontal-cards .col {
+.plans .container .horizontal-cards .col {
     width:100%;
     /* debug */
     height:200px;
@@ -111,6 +111,22 @@ header {
 /* /card-section */
 
 /* partner */
+
+.partner .container {
+    display:flex;
+}
+.partner .image-col {
+    width:60%;
+    /* debug */
+    border:1px dashed red;
+    height:500px;
+}
+
+.partner .text-col {
+    width:40%;
+    /* debug */
+    border:1px dashed blue;
+}
  /* /partner */
 
 /* info-cards */
