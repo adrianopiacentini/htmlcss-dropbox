@@ -130,6 +130,26 @@ header {
  /* /partner */
 
 /* info-cards */
+
+.info .info-cards {
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.info .container .text-section {
+    align-self:flex-start;
+    /* debug */
+    height:100px;
+}
+
+.info .card {
+    width:calc(85% / 3);
+    /* debug */
+    height:200px;
+    border:1px solid black;
+}
  /* /info-cards */
 
 /* more */
