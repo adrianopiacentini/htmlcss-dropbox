@@ -59,7 +59,7 @@ header {
 
 .hero-col-image {
     width:60%;
-    position:relative;
+    /* position:relative; */
     /* debug */
     border:1px dashed pink;
     height:100%;
@@ -67,6 +67,47 @@ header {
  /* /hero */
 
 /* card-section  */
+.plan {
+    width:60%;
+    max-width:1100px;
+    margin:50px auto;
+    /* debug */
+    min-height:500px;
+    border:1px dashed black;
+}
+
+.vertical-cards {
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+    /* debug */
+    min-height:500px;
+    border:1px dashed black;
+
+}
+
+.plan .text-section {
+    align-self:flex-start;
+    /* debug */
+    min-height:100px;
+}
+
+.vertical-cards .col {
+    width:calc(95% / 3);
+    /* debug */
+    border: 1px dashed red;
+}
+
+.horizontal-cards {
+    margin-top:50px;
+}
+
+.horizontal-cards .col {
+    width:100%;
+    /* debug */
+    height:200px;
+    border:1px dashed blue;
+}
 /* /card-section */
 
 /* partner */
