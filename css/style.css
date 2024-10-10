@@ -277,6 +277,11 @@ h2 {
     font-size: 1.1rem;
 }
 
+/* Info Section */
+.info h2 {
+    font-size:2.3rem;
+    margin-bottom:40px;
+}
 
 /* FOOTER */
 .footer {
